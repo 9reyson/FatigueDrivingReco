@@ -1,0 +1,34 @@
+﻿生成启动时间为 2014/8/18 22:16:48。
+     1>项目“E:\课外学习资料\大创\FatigueDrivingReco\FatigueDrivingReco\FatigueDrivingReco.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\FatigueDrivingReco.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt getEyePos.cpp main.cpp
+         getEyePos.cpp
+         main.cpp
+     1>main.cpp(146): warning C4305: “参数”: 从“double”到“float”截断
+     1>main.cpp(48): warning C4101: “stop”: 未引用的局部变量
+     1>main.cpp(48): warning C4101: “start”: 未引用的局部变量
+     1>main.cpp(38): warning C4101: “j”: 未引用的局部变量
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\课外学习资料\大创\FatigueDrivingReco\Release\FatigueDrivingReco.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_nonfree249.lib opencv_objdetect249.lib opencv_photo249.lib opencv_stitching249.lib opencv_ts249.lib opencv_video249.lib opencv_videostab249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\FatigueDrivingReco.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\课外学习资料\大创\FatigueDrivingReco\Release\FatigueDrivingReco.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\课外学习资料\大创\FatigueDrivingReco\Release\FatigueDrivingReco.lib" /MACHINE:X86 Release\detectFace.obj
+         Release\getEyePos.obj
+         Release\histogram.obj
+         Release\histProject.obj
+         Release\lineTrans.obj
+         Release\main.obj
+         Release\nonlineTrans.obj
+         Release\ostuThreshold.obj
+         正在生成代码
+         已完成代码的生成
+         FatigueDrivingReco.vcxproj -> E:\课外学习资料\大创\FatigueDrivingReco\Release\FatigueDrivingReco.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\课外学习资料\大创\FatigueDrivingReco\Release\FatigueDrivingReco.exe;#1" /manifest Release\FatigueDrivingReco.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\FatigueDrivingReco.unsuccessfulbuild”。
+         正在对“Release\FatigueDrivingReco.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\课外学习资料\大创\FatigueDrivingReco\FatigueDrivingReco\FatigueDrivingReco.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.91
