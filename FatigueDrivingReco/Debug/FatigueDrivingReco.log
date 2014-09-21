@@ -1,20 +1,18 @@
-﻿生成启动时间为 2014/9/20 15:55:39。
+﻿生成启动时间为 2014/9/21 16:38:53。
      1>项目“E:\课外学习资料\大创\FatigueDrivingReco\FatigueDrivingReco\FatigueDrivingReco.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\FatigueDrivingReco.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt detectFace.cpp histProject.cpp histogram.cpp lineTrans.cpp main.cpp nonlineTrans.cpp ostuThreshold.cpp recoEyeState.cpp
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt detectFace.cpp histProject.cpp histogram.cpp lineTrans.cpp main.cpp nonlineTrans.cpp ostuThreshold.cpp
          main.cpp
-     1>e:\课外学习资料\大创\fatiguedrivingreco\fatiguedrivingreco\main.cpp(185): warning C4305: “参数”: 从“double”到“float”截断
-     1>e:\课外学习资料\大创\fatiguedrivingreco\fatiguedrivingreco\main.cpp(199): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\课外学习资料\大创\fatiguedrivingreco\fatiguedrivingreco\main.cpp(187): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\课外学习资料\大创\fatiguedrivingreco\fatiguedrivingreco\main.cpp(200): warning C4305: “参数”: 从“double”到“float”截断
      1>e:\课外学习资料\大创\fatiguedrivingreco\fatiguedrivingreco\main.cpp(65): warning C4101: “eyeBrowThreshold”: 未引用的局部变量
      1>e:\课外学习资料\大创\fatiguedrivingreco\fatiguedrivingreco\main.cpp(47): warning C4101: “stop”: 未引用的局部变量
      1>e:\课外学习资料\大创\fatiguedrivingreco\fatiguedrivingreco\main.cpp(47): warning C4101: “start”: 未引用的局部变量
-     1>e:\课外学习资料\大创\fatiguedrivingreco\fatiguedrivingreco\main.cpp(34): warning C4101: “capture”: 未引用的局部变量
      1>e:\课外学习资料\大创\fatiguedrivingreco\fatiguedrivingreco\main.cpp(41): warning C4101: “j”: 未引用的局部变量
          正在生成代码...
          正在跳过...(未检测到相关更改)
-         recoEyeState.cpp
          ostuThreshold.cpp
          nonlineTrans.cpp
          lineTrans.cpp
@@ -47,4 +45,4 @@
 
 生成成功。
 
-已用时间 00:00:03.38
+已用时间 00:00:03.75
