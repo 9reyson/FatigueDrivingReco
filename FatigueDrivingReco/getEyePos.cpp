@@ -116,6 +116,7 @@ int removeEyebrow(int* horiProject, int width, int height, int threshold)
 	eyeRow = 0;
 	for(i = 0; i < height; i = i + 3){
 		count ++;
+		// 相当于递推滤波
 		temp1 = *(horiProject + i) + *(horiProject + i + 1) + *(horiProject + i + 2);
 		if( (temp1 < temp) & (flag == 0) ){
 			temp = temp1;
@@ -228,7 +229,7 @@ void getEyeMinRect(CvRect* eyeRect, int* horiProject, int* vertProject, int widt
 		}
 	}
 	temp = i;				// 记录eyeRectTemp.y的位置
-	printf("eyeRectTemp->y: %d\n", eyeRect->y);
+	//printf("eyeRectTemp->y: %d\n", eyeRect->y);
 
 	if( temp != height ){	
 	// temp != HEIGHT: 防止没有符合*(subhoriProject + i) < temp1条件的位置；如果temp != HEIGHT则一定有满足条件的位置存在
@@ -246,7 +247,7 @@ void getEyeMinRect(CvRect* eyeRect, int* horiProject, int* vertProject, int widt
 	else{
 		eyeRect->height = 1;
 	}
-	printf("eyeRectTemp.height: %d\n", eyeRect->height);
+	//printf("eyeRectTemp.height: %d\n", eyeRect->height);
 	
 	temp1 = (height - vertThreshold) * 255;
 	for( i = 0; i < width; i ++ ){
@@ -256,7 +257,7 @@ void getEyeMinRect(CvRect* eyeRect, int* horiProject, int* vertProject, int widt
 		}
 	}
 	temp = i;			// 记录eyeRectTemp.x的位置
-	printf("eyeRectTemp.x: %d\n", eyeRect->x);
+	//printf("eyeRectTemp.x: %d\n", eyeRect->x);
 
 	if( temp != width ){
 		for(i = width-1; i >= 0; i --){
@@ -274,5 +275,5 @@ void getEyeMinRect(CvRect* eyeRect, int* horiProject, int* vertProject, int widt
 	else{
 		eyeRect->width = 1;
 	}
-	printf("eyeRectTemp.width: %d\n", eyeRect->width);
+	//printf("eyeRectTemp.width: %d\n", eyeRect->width);
 }

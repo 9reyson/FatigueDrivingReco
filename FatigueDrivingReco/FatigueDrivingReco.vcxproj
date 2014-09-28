@@ -82,6 +82,7 @@
     <ClInclude Include="nonlineTrans.h" />
     <ClInclude Include="ostuThreshold.h" />
     <ClInclude Include="recoEyeState.h" />
+    <ClInclude Include="recoFatigueState.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="detectFace.cpp" />
@@ -93,6 +94,7 @@
     <ClCompile Include="nonlineTrans.cpp" />
     <ClCompile Include="ostuThreshold.cpp" />
     <ClCompile Include="recoEyeState.cpp" />
+    <ClCompile Include="recoFatigueState.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

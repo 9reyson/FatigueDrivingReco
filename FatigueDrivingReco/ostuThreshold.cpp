@@ -53,8 +53,8 @@ int ostuThreshold(int * hist, int pixelSum, const int CONST)
 			threshold = i;
 		}
 	}
-	printf("Ostu Threshold: %d\n", threshold);
-	printf("real Threshold: %d\n", threshold - CONST);
+	//printf("Ostu Threshold: %d\n", threshold);
+	//printf("real Threshold: %d\n", threshold - CONST);
 	//·µ»Ø×î¼ÑãÐÖµ;
 	return (threshold - CONST);
 }

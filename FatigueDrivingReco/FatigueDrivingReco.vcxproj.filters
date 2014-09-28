@@ -39,6 +39,9 @@
     <ClInclude Include="recoEyeState.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="recoFatigueState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -66,6 +69,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="recoEyeState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="recoFatigueState.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
